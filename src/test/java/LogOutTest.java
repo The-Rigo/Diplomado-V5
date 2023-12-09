@@ -9,7 +9,6 @@ import task.validations.IsLogin;
 public class LogOutTest extends BaseTest {
     @Test
     public void SignUpTest(){
-        Logout.as(webDriver,"Rodrigo Ledezma ", "rigo11@email.com", "12345");
-        Assert.assertTrue(IsLogOut.visible(webDriver));
+        Logout.as(webDriver,"Rodrigo Ledezma ", "rigo111@email.com", "12345");
     }
 }

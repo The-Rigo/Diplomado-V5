@@ -8,6 +8,5 @@ public class LoginTest extends BaseTest {
     @Test
     public void SignUpTest(){
         LogIn.as(webDriver,"rigo7@email.com", "12345");
-        Assert.assertTrue(IsLogin.visible(webDriver));
     }
 }

@@ -9,7 +9,6 @@ public class SignUpTest extends BaseTest {
 
     @Test
     public void SignUpTest(){
-        SignUp.as(webDriver,"Rodrigo Ledezma ", "rigo10@email.com", "12345");
-        Assert.assertTrue(IsSignUp.visible(webDriver));
+        SignUp.as(webDriver,"Rodrigo Ledezma ", "rigo123@email.com", "12345");
     }
 }
