@@ -3,9 +3,7 @@ package task.tasking;
 import actions.Click;
 import actions.Enter;
 import org.openqa.selenium.WebDriver;
-import ui.FormAuthentication;
 import ui.HomePage;
-import ui.HomePageUI;
 import ui.SignUpFree;
 
 public class SignUp {
