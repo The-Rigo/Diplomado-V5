@@ -6,7 +6,7 @@ public class SignUpTest extends BaseTest {
 
     @Test
     public void SignUpTest(){
-        SignUp.as(webDriver,"Rodrigo Ledezma ", "rigo@email.com", "12345");
+        SignUp.as(webDriver,"Rodrigo Ledezma ", "rigo4@email.com", "12345");
 
     }
 }

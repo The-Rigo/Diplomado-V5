@@ -10,4 +10,6 @@ public class SignUpFree {
 
     public static By signupButton = By.xpath("//div[@class='HPsignupDiv']//input[@class='HPLoginBtn']");
 
+
+
 }
