@@ -13,6 +13,7 @@ public class SignUp {
         Enter.text(webDriver, SignUpFree.fullname, fullname);
         Enter.text(webDriver, SignUpFree.email, email);
         Enter.text(webDriver, SignUpFree.password, pass);
+        Click.on(webDriver, SignUpFree.checkbox);
         Click.on(webDriver, SignUpFree.signupButton);
     }
 }
