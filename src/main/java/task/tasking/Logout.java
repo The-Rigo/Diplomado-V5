@@ -10,11 +10,11 @@ import ui.SignUpFree;
 public class Logout {
     public static void as(WebDriver webDriver, String fullname, String email, String pass) {
         Click.on(webDriver, HomePage.signup);
-        Enter.text(webDriver, SignUpFree.fullname, fullname);
-        Enter.text(webDriver, SignUpFree.email, email);
-        Enter.text(webDriver, SignUpFree.password, pass);
-        Click.on(webDriver, SignUpFree.checkbox);
-        Click.on(webDriver, SignUpFree.signupButton);
+        Enter.text(webDriver, LogOut.fullname, fullname);
+        Enter.text(webDriver, LogOut.email, email);
+        Enter.text(webDriver, LogOut.password, pass);
+        Click.on(webDriver, LogOut.checkbox);
+        Click.on(webDriver, LogOut.signupButton);
         Click.on(webDriver, LogOut.logout);
     }
 }

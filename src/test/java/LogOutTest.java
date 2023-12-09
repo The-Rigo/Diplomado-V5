@@ -6,7 +6,7 @@ import task.tasking.SignUp;
 public class LogOutTest extends BaseTest {
     @Test
     public void SignUpTest(){
-        Logout.as(webDriver,"Rodrigo Ledezma ", "rigo7@email.com", "12345");
+        Logout.as(webDriver,"Rodrigo Ledezma ", "rigo11@email.com", "12345");
 
     }
 }
